@@ -2,6 +2,11 @@ pipeline {
     agent any
 
     stages {
+        stage('Git') {
+            steps {
+                sh 'git branch: 'main', credentialsId: 'Github', url: 'https://github.com/Srivani-Yelisetti/Jenkins.git''
+            }
+        }
         stage('DockerBuild') {
             steps {
                 sh 'docker build -t siva1:latest .'
