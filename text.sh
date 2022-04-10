@@ -1,3 +1,1 @@
-pwd
-ls
-df -h
+docker info
