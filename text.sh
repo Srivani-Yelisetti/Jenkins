@@ -1,1 +1,1 @@
-systemctl jenkins status
+service jenkins status
