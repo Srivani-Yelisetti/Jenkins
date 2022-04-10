@@ -1,1 +1,1 @@
-sudo usermod -aG Docker jenkins
+docker info
