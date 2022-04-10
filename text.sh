@@ -1,1 +1,3 @@
-service jenkins status
+pwd
+ls
+df -h
