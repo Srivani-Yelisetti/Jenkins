@@ -1,1 +1,1 @@
-docker info
+docker images
